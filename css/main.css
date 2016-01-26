@@ -36,3 +36,16 @@ html {
     transform: translateX(-10px)
   }
 }
+
+#left-ear {
+  transition: all .5s linear;
+}
+
+#right-ear {
+  transition: all .5s linear;
+}
+
+.bear:hover #left-ear,
+.bear:hover #right-ear {
+  transform: translateY(-10px);
+}
