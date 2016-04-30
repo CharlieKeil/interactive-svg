@@ -21,19 +21,25 @@ html {
 }
 
 @keyframes move {
-  0% { transform: translateX(-10px)
+
+  0% {
+    transform: translateX(-10px);
   }
+
   25% {
-    transform: translateX(10px)
+    transform: translateX(10px);
   }
+
   50% {
-    transform: translateX(-10px)
+    transform: translateX(-10px);
   }
+
   75% {
-    transform: translateX(10px)
+    transform: translateX(10px);
   }
+
   100% {
-    transform: translateX(-10px)
+    transform: translateX(-10px);
   }
 }
 
@@ -48,4 +54,25 @@ html {
 .bear:hover #left-ear,
 .bear:hover #right-ear {
   transform: translateY(-10px);
+}
+
+.st0 {
+  fill: #673200;
+}
+
+.st1 {
+  fill: #ffaaca;
+}
+
+.st2 {
+  fill: #c65b00;
+}
+
+.st3 {
+  fill: none;
+  stroke: #000;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
 }
